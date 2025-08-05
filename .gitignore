@@ -432,3 +432,4 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
  
+/App/.vs/FilmesApi/v17/.futdcache.v2
