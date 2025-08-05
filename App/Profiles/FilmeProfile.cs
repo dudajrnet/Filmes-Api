@@ -1,0 +1,15 @@
+﻿using FilmesApi.Models;
+using AutoMapper;
+using FilmesApi.Data.Dtos;
+
+namespace FilmesApi.Profiles
+{
+    public class FilmeProfile : Profile
+    {
+        public FilmeProfile()
+        {
+            CreateMap<CreateFilmeDto, Filme>();
+        }
+        
+    }
+}
